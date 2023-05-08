@@ -1,6 +1,6 @@
 export default function BottomContent() {
   return (
-    <div className="trending-news-container">
+    <div className="bottom-content">
       <div className="news-container">
         <img
           className="trending-news-image"

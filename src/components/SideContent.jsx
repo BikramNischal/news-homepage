@@ -1,6 +1,6 @@
 export default function Sidebar() {
   return (
-    <aside className="new-news-container">
+    <aside className="side-content">
       <h2 className="new-news-main-header" >New</h2>
       <div className="new-news-list">
         <div className="new-news">

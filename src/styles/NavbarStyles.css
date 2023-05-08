@@ -1,0 +1,19 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    color: var(--secondary-dark-gray-blue);
+}
+
+.nav-logo{
+    width: 100px;
+}
+
+.nav-list{ 
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,41 @@
+.main-content{
+    width: 70%;
+    margin-right: 5%;    
+    margin-bottom: 20px;
+}
+
+.main-image{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-news-details{
+    width: 100%;
+    display: flex;
+}
+
+.main-header{
+    font-size: 48px;
+    width: 50%;
+    padding-right: 100px;
+    font-weight: 800;
+}
+
+.news-description{
+    width: 50%;
+}
+
+.news-description p{
+    color:var(--secondary-dark-gray-blue);
+}
+
+.btn{
+    margin-top: 10%;
+    width: 50%;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 0;
+    background-color: var(--primary-red);
+    color: var(--secondary-white);
+}
