@@ -4,7 +4,7 @@ import "../styles/MainContentStyles.css";
 export default function MainContent() {
     return (
         <div className="main-content">
-            <img className="main-image" src="../../public/assets/images/image-web-3-desktop.jpg" width="500px" alt="news image" />
+            <img className="main-image" src="/assets/images/image-web-3-desktop.jpg" width="500px" alt="news image" />
 
             <div className="main-news-details">
                 <h1 className="news-header main-header"> The Bright Future of Web 3.0?</h1>

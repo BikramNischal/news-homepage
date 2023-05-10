@@ -1,3 +1,6 @@
+import "../styles/SideContentStyles.css";
+
+
 export default function Sidebar() {
   return (
     <aside className="side-content">

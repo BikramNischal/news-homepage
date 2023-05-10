@@ -4,7 +4,7 @@ export default function BottomContent() {
       <div className="news-container">
         <img
           className="trending-news-image"
-          src={"../../public/assets/images/image-retro-pcs.jpg"}
+          src="/assets/images/image-retro-pcs.jpg"
           alt="news image"
         />
         <div className="news-details">
@@ -18,7 +18,7 @@ export default function BottomContent() {
       <div className="news-container">
         <img
           className="trending-news-image"
-          src={"../../public/assets/images/image-top-laptops.jpg"}
+          src="/assets/images/image-top-laptops.jpg"
           alt="laptop image"
         />
         <div className="news-details">
@@ -32,7 +32,7 @@ export default function BottomContent() {
       <div className="news-container">
         <img
           className="trending-news-image"
-          src={"../../public/assets/images/image-gaming-growth.jpg"}
+          src="/assets/images/image-gaming-growth.jpg"
           alt="console image"
         />
         <div className="news-details">
