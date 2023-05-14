@@ -1,6 +1,6 @@
 .main-content {
-    width: 65%;
-    margin-right: 5%;
+    width: 70%;
+    margin-right: 30px;
     margin-bottom: 20px;
 }
 
@@ -15,20 +15,20 @@
 }
 
 .main-header {
-    font-size: 2.5rem;
-    width: 40%;
+    font-size: 3.2rem;
+    width: 50%;
     padding-right: 100px;
     font-weight: 800;
 }
 
 .news-description {
-    width: 60%;
+    width: 50%;
 }
 
 .news-description {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .news-description p {

@@ -1,3 +1,6 @@
+import "../styles/BottomContentStyles.css";
+
+
 export default function BottomContent() {
   return (
     <div className="bottom-content">
@@ -10,7 +13,7 @@ export default function BottomContent() {
         <div className="news-details">
           <h4 className="news-rank">01</h4>
           <h5 className="trending-header">Reviving Retro PCs</h5>
-          <p className="treading-sub-header">
+          <p className="trending-sub-header">
             What happens when old PCs are given modern upgrades?
           </p>
         </div>
