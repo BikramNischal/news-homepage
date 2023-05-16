@@ -35,3 +35,7 @@
     margin: 10px 0;
     font-size: 1.2rem;
 }
+
+.new-news:active .new-news-header , .new-news:hover .new-news-header{
+    color: var(--primary-orange);
+}

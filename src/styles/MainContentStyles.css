@@ -38,9 +38,14 @@
 .btn {
     width: 50%;
     height: 50px;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 16px;
     border-radius: 0;
     background-color: var(--primary-red);
     color: var(--secondary-white);
+    letter-spacing: 3px;
+}
+
+.btn:active, .btn:hover{
+    background-color: var(--secondary-very-dark-blue);
 }
