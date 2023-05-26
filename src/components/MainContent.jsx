@@ -4,7 +4,10 @@ import "../styles/MainContentStyles.css";
 export default function MainContent() {
     return (
         <div className="main-content">
-            <img className="main-image" src="/assets/images/image-web-3-desktop.jpg" width="500px" alt="news image" />
+            <picture className="main-image" width="500px">
+                <source media="(max-width: 800px)" srcSet="/assets/images/image-web-3-mobile.jpg" />
+                <img src="/assets/images/image-web-3-desktop.jpg" width="100%"  alt="news image" />
+            </picture>
 
             <div className="main-news-details">
                 <h1 className="news-header main-header"> The Bright Future of Web 3.0?</h1>

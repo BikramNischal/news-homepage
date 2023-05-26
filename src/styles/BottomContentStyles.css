@@ -1,13 +1,14 @@
 
 .bottom-content{
     width:100%;
-    min-width:1000px;
+    min-width:900px;
     display:flex;
     margin-bottom: 50px;
 }
 
 .news-container{
     display:flex;
+    width: 33%;
 }
 
 .news-container:active .trending-header,
@@ -34,4 +35,39 @@
 .trending-news-image{
     width: 100px;
     margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 1100px){
+    .bottom-content{
+        min-width: 700px;
+    }
+    .trending-news-image{
+        width: 80px;
+    }    
+}
+
+@media only screen and (max-width: 800px){
+    .bottom-content{
+        flex-direction: column;
+        gap : 20px;
+        width: 100%;
+        min-width: 250px;
+    }
+    
+    .news-container{
+        width: 100%;
+    }
+
+    .trending-news-image{
+        width: 100px;
+    }
+
+    .trending-header{
+        font-size: 1.5rem;
+    }
+
+    .trending-sub-header{
+        font-size: 1.2rem;
+    }
 }
