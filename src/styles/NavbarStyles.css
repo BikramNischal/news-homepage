@@ -21,6 +21,10 @@
     gap: 50px;
 }
 
+.nav-list li{
+    font-size: 1.2rem;
+}
+
 .nav-list li:active,
 .nav-list li:hover {
     color: var(--primary-red);
